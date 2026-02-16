@@ -239,13 +239,14 @@ export default function Home() {
             {/* Comprehensive Footer */}
             <footer className="pt-24 pb-12 bg-black border-t border-white/5">
                 <div className="max-w-7xl mx-auto px-8 sm:px-20">
-                    <div className="grid md:grid-cols-4 gap-12 mb-20 text-center md:text-left">
+                    <div className="grid grid-cols-1 md:grid-cols-4 gap-12 mb-20 text-center md:text-left">
                         <div className="space-y-6">
                             <h4 className="text-2xl font-black uppercase tracking-tighter">Petra</h4>
                             <p className="text-white/30 text-xs leading-relaxed max-w-[200px] mx-auto md:mx-0">
                                 Presidente - doživite novi talas moderne pop muzike.
                             </p>
                         </div>
+                        <div className="grid grid-cols-2 gap-6">
                         <div className="space-y-6">
                             <p className="text-[10px] uppercase tracking-widest font-bold text-white/40">Meni</p>
                             <ul className="space-y-3 text-xs font-medium text-white/60">
@@ -264,6 +265,8 @@ export default function Home() {
                                 <li><a href="https://open.spotify.com/user/313ly5nzamth72rvymy3oygitxui?si=bec4b4d26f6c4543" className="hover:text-white transition-colors">Spotify</a></li>
                             </ul>
                         </div>
+                        </div>
+                        
                         <div className="space-y-6">
                             <p className="text-[10px] uppercase tracking-widest font-bold text-white/40">Spotify</p>
                             <div className="bg-white/5 rounded-2xl p-4 border border-white/10">
