@@ -77,20 +77,20 @@ export default function Home() {
                 <div className="max-w-7xl mx-auto px-8 sm:px-20">
                     <div className="grid grid-cols-2 lg:grid-cols-4 gap-12 sm:gap-20 text-center">
                         <div className="space-y-3 group">
-                            <p className="text-5xl md:text-6xl font-black tracking-tighter group-hover:text-white/80 transition-colors">10+</p>
-                            <p className="text-white/30 uppercase tracking-[0.2em] text-[11px] font-bold">Godina iskustva</p>
+                            <p className="text-5xl md:text-6xl font-black tracking-tighter group-hover:text-white/80 transition-colors">120K+</p>
+                            <p className="text-white/30 uppercase tracking-[0.2em] text-[11px] font-bold">Pratioca</p>
                         </div>
                         <div className="space-y-3 group">
-                            <p className="text-5xl md:text-6xl font-black tracking-tighter group-hover:text-white/80 transition-colors">50+</p>
-                            <p className="text-white/30 uppercase tracking-[0.2em] text-[11px] font-bold">Posjećenih klubova</p>
+                            <p className="text-5xl md:text-6xl font-black tracking-tighter group-hover:text-white/80 transition-colors">5.2M+</p>
+                            <p className="text-white/30 uppercase tracking-[0.2em] text-[11px] font-bold">Lajkova</p>
                         </div>
                         <div className="space-y-3 group">
-                            <p className="text-5xl md:text-6xl font-black tracking-tighter group-hover:text-white/80 transition-colors">100k</p>
-                            <p className="text-white/30 uppercase tracking-[0.2em] text-[11px] font-bold">Nastupa uživo</p>
+                            <p className="text-5xl md:text-6xl font-black tracking-tighter group-hover:text-white/80 transition-colors">2.2K+</p>
+                            <p className="text-white/30 uppercase tracking-[0.2em] text-[11px] font-bold">Youtube pratioca</p>
                         </div>
                         <div className="space-y-3 group">
-                            <p className="text-5xl md:text-6xl font-black tracking-tighter group-hover:text-white/80 transition-colors">500k</p>
-                            <p className="text-white/30 uppercase tracking-[0.2em] text-[11px] font-bold">Mjesečnih slušalaca</p>
+                            <p className="text-5xl md:text-6xl font-black tracking-tighter group-hover:text-white/80 transition-colors">soon</p>
+                            <p className="text-white/30 uppercase tracking-[0.2em] text-[11px] font-bold">Spotify mesecnih slusalaca</p>
                         </div>
                     </div>
                 </div>
@@ -164,7 +164,7 @@ export default function Home() {
             </section>
 
             {/* Marquee Divider - FIX: Structural adjustment for smoother animation */}
-            <section className="py-20 border-y border-white/5 overflow-hidden bg-black flex items-center relative h-32 md:h-48">
+            <section className="py-20 border-y border-white/5 overflow-hidden flex items-center relative h-32 md:h-48">
                 <div className="animate-marquee flex items-center w-max">
                     {[1, 2, 3, 4, 5, 6].map((_, i) => (
                         <div key={i} className="flex items-center gap-10 sm:gap-20 shrink-0 px-5 sm:px-10">
