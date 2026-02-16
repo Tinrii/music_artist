@@ -12,9 +12,9 @@ const Navbar = () => {
                 <li><Link href="#contact" className='hover:text-white transition-colors duration-300'>Kontakt</Link></li>
             </ul>
             <div className="flex items-center gap-4">
-                <button className="px-6 py-2 border cursor-pointer border-white/20 rounded-full text-xs font-semibold hover:bg-white hover:text-black transition-all duration-300 uppercase tracking-widest">
+                <a href="https://open.spotify.com/user/313ly5nzamth72rvymy3oygitxui?si=bea92632207c4ce5" className="px-6 py-2 border cursor-pointer border-white/20 rounded-full text-xs font-semibold hover:bg-white hover:text-black transition-all duration-300 uppercase tracking-widest">
                     Spotify
-                </button>
+                </a>
             </div>
         </nav>
     )
